@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="BB Systems — software backed by agents and evidence">
+  <defs>
+    <radialGradient id="warm" cx="78%" cy="26%" r="58%">
+      <stop offset="0" stop-color="#D4703F" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#141210" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141210" stop-opacity="0"/>
+      <stop offset=".22" stop-color="#141210" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#141210"/>
+    </linearGradient>
+    <clipPath id="gridClip">
+      <path d="M0 360h1200v270H0z"/>
+    </clipPath>
+    <style>
+      @font-face { font-family: UrbanistLocal; src: url('./assets/fonts/urbanist-latin-600-700.woff2'); font-weight: 600 700; }
+      @font-face { font-family: JetBrainsLocal; src: url('./assets/fonts/jetbrains-mono-latin-500.woff2'); font-weight: 500; }
+      .display { font-family: UrbanistLocal, Urbanist, Arial, sans-serif; font-weight: 600; }
+      .mono { font-family: JetBrainsLocal, monospace; font-weight: 500; letter-spacing: 4px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="#141210"/>
+  <rect width="1200" height="630" fill="url(#warm)"/>
+
+  <g clip-path="url(#gridClip)" fill="none" stroke="#4FD4D9" stroke-opacity=".18" stroke-width="1">
+    <path d="M600 355 70 630M600 355 165 630M600 355 260 630M600 355 355 630M600 355 450 630M600 355 545 630M600 355 655 630M600 355 750 630M600 355 845 630M600 355 940 630M600 355 1035 630M600 355 1130 630"/>
+    <path d="M0 385h1200M0 420h1200M0 465h1200M0 520h1200M0 590h1200"/>
+  </g>
+  <rect y="354" width="1200" height="276" fill="url(#fade)"/>
+  <path d="M0 355h1200" stroke="#4FD4D9" stroke-opacity=".23"/>
+
+  <rect x="86" y="76" width="56" height="7" fill="#D4703F"/>
+  <text x="162" y="89" fill="#F2EDE7" font-size="25" class="display" letter-spacing="6">BB SYSTEMS</text>
+  <text x="1112" y="87" fill="#A8A099" font-size="12" text-anchor="end" class="mono">SYSTEM / 001</text>
+
+  <text x="82" y="235" fill="#F2EDE7" font-size="72" class="display" letter-spacing="-2">We build software,</text>
+  <text x="82" y="310" fill="#F2EDE7" font-size="72" class="display" letter-spacing="-2">backed by agents and evidence.</text>
+
+  <text x="84" y="549" fill="#A8A099" font-size="14" class="mono">SOFTWARE + AGENT-SUPPORTED OPERATIONS</text>
+  <text x="1116" y="549" fill="#A8A099" font-size="14" text-anchor="end" class="mono">BBSYSTEMS.DEV</text>
+</svg>
